@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src=setstage.js></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Battle!</title>
+    
+</head>
+<body>
+
+<div id="quiztab" align="center">
+
+    <div class="radioactive" align="center">
+			<div class="outer">
+				<div class="middle"></div>
+				<div class="triangle top"></div>
+				<div class="triangle left"></div>
+				<div class="triangle right"></div>
+			</div>
+    </div>
+    <h1 class="standby">PLEASE STAND BY</h1>
+    <button id = "selector" class = "btn btn-default"> Start the Quiz! </button>
+
+</div>
+
+<div id="container" style="visibility: hidden;" align="center">
+    <h1 id="QuizTitle" data-text="" class="page-header"></h1>
+    <h4 id="time"> </h4>
+    <div id="game"></div>
+
+    <span id=player1>
+        <h3>Player One</h3>
+        <div class="heart-wrapper"></div>
+    </span>
+    <span id=player2>
+        <h3>Player Two</h3>
+        <div class="status"></div>
+    </span>
+    
+</div>
+
+</body>
+
+</html>

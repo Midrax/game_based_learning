@@ -1,0 +1,227 @@
+.standby
+{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.radioactive {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ffffff;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.outer {
+    height: 260px;
+    width: 260px;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    animation: rotate 5s linear infinite;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.middle {
+    position: absolute;
+    top: 105px;
+    right: 105px;
+    background: #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 10px solid rgb(0, 0, 0);
+    z-index: 500;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 86.6666666667px solid transparent;
+    border-right: 86.6666666667px solid transparent;
+    border-top: 150px solid #ffffff;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.triangle.top {
+    top: 0px;
+    right: 45px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.triangle.left {
+    top: 88px;
+    left: -10px;
+    transform: rotate(240deg);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.triangle.right {
+    top: 88px;
+    right: -10px;
+    transform: rotate(120deg);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+@keyframes rotate {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+.radioactive {
+    /*General*/
+    transform: scale(0.75, 0.75);
+    /*Firefox*/
+    -moz-transform: scale(0.75, 0.75);
+    /*Microsoft Internet Explorer*/
+    -ms-transform: scale(0.75, 0.75);
+    /*Chrome, Safari*/
+    -webkit-transform: scale(0.75, 0.75);
+    /*Opera*/
+    -o-transform: scale(0.75, 0.75);
+}
+
+body {
+  color: white;
+  background: black;
+}
+
+#QuizTitle {
+    color: white;
+    position: relative;
+    width: 500px;
+}
+
+.panel {
+  background-color:black;
+}
+
+.btn{
+    margin: 5px;
+    color: black;
+}
+
+#time{
+    height: 19px;
+}
+
+#player1 {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 18px;
+    width:300px;
+}
+
+#player2 {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    font-size: 18px;
+    width:300px;
+}
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.heart-wrapper {
+    position: relative;
+    top: 10px;
+    font-size: 3px;
+}
+
+.heart {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: 0 7em;
+    background: #a52a21;
+    box-shadow:
+        /* white shine */
+        0 -2em 0 white,
+        -3em 0 0 white,
+        -2em -1em 0 white,
+        /* top shades */
+        0 -1em 0 0 #c52317,
+        -1em -2em 0 0 #c52317,
+        -2em -2em 0 0 #c52317,
+        -3em -2em 0 0 #c52317,
+        1em -2em 0 0 #c52317,
+        2em -2em 0 0 #c52317,
+        3em -2em 0 0 #c52317,
+        -4em -1em 0 0 #c52317,
+        4em -1em 0 0 #c52317,
+        /* fills my heart */
+        0 0 0 2em #a52a21,
+        -1em 0 0 2em #a52a21,
+        1em 0 0 2em #a52a21,
+        -3em 0 0 1em #a52a21,
+        3em 0 0 1em #a52a21,
+        0 1em 0 2em #a52a21,
+        0 3em 0 1em #a52a21,
+        0 5em 0 0 #a52a21,
+        /* white borders */
+        -2em -2em 0 1em white,
+        2em -2em 0 1em white,
+        -3em -1em 0 1em white,
+        3em -1em 0 1em white,
+        -4em 0 0 1em white,
+        4em 0 0 1em white,
+        -3em 1em 0 1em white,
+        3em 1em 0 1em white,
+        1em 1em 0 2em white,
+        -1em 1em 0 2em white,
+        0 2em 0 2em white,
+        0 4em 0 1em white,
+        0 6em 0 0 white;
+}
+
+.btn.btn-default.focus,
+.btn.btn-default:focus {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  border-color: #ffffff;
+}
+.btn.btn-default:hover {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  border-color: #ffffff;
+}
+.btn.btn-default.active,
+.btn.btn-default:active {
+  color: #fff;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+
+.btn.btn-default.active.focus,
+.btn.btn-default.active:focus,
+.btn.btn-default.active:hover,
+.btn.btn-default:active.focus,
+.btn.btn-default:active:focus,
+.btn.btn-default:active:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #ffffff;
+}

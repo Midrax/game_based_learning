@@ -1,0 +1,171 @@
+[
+    {
+    "name":"Nobody",
+    "answerTimeBegin":10,
+    "answerTimeEnd":10,
+    "rightGuess":12,
+    "HTMLtext":"No enemy, </br> No challenge. </br>",
+    "playerName":
+        [
+            "Nobody, really,", 
+            "Literally no one", 
+            "Some hooded guy from an Organization"
+        ],
+    "lossReact": 
+        [
+            " is judging your errors. Wrong answers may happen!", 
+            " is thinking you're making bad choices. Maybe."
+        ],
+    "deathReact": 
+        [
+            " thinks you're dead. It's a game, luckily, try again!", 
+            " likes GAME OVERs."
+        ],
+    "winwinReact": 
+        [
+            " is amazed by how good you are. Is it worth winning without fighting, though?",
+            " is impressed by your great knowledge."
+        ],
+    "winfastReact": 
+        [
+            " knows that this option can't ever come up on screen"
+        ],
+    "winlossReact": 
+        [
+            " knows that this option can't ever come up on screen"
+        ],
+    "skipReact": 
+        [
+            " is yawning at your lack of confidence.", 
+            " is bored by your odd display of ignorance."
+        ]
+    },
+    {
+    "name":"Dumb",
+    "answerTimeBegin":6,
+    "answerTimeEnd":8,
+    "rightGuess":8,
+    "HTMLtext":"This player isn't what you'd call smart. </br> He may guess something right once in a while. </br>",
+    "playerName": 
+        [
+            "Alfred, tinfoil hat wearer,", 
+            "Mr Doggo, who also happen to be a really nice dog,", 
+            "The President of the Galaxy"
+        ],
+    "lossReact": 
+        [
+            " is laughing at your errors! Or maybe not, maybe it's because of a joke they told him.", 
+            " is thinking you don't know the answer! Just kidding, he can't think."
+        ],
+    "deathReact": 
+        [
+            " is afraid you're unable to go on. Maybe you should restart?",
+            " is looking at you with a puzzled expression. Why aren't you moving?"
+        ],
+    "winwinReact": 
+        [
+            " is quite surprised. He really thought he knew that one!", 
+            " is really depressed. You got it right and he got it wrong."
+        ],
+    "winfastReact": 
+        [
+            " is flabbergasted. Is that even a word? He knew the answer, but you got it faster!", 
+            " is bamboozled. He got the right answer, but you were faster!"
+        ],
+    "winlossReact": 
+        [
+            " is bursting with joy. You got the answer right, but for once he answered faster!", 
+            " is playing the banjo. He's quite skilled. Also, you answered right, but were too slow."
+        ],
+    "skipReact": 
+        [
+            " is nodding apprehensively. He didn't know that one, why would you?", 
+            " is thinking that he may win if you skip more questions. Please skip!"
+        ]
+    },
+    {
+    "name":"Average",
+    "answerTimeBegin":5,
+    "answerTimeEnd":7,
+    "rightGuess":6,
+    "HTMLtext":"This player is as clever as your average Joe or Jane can be. </br> Not too easy nor too hard to beat. </br>",
+    "playerName": 
+        [
+            "Joseph, also known as Joe,", 
+            "Jane Doe, ordinary lady,"
+        ],
+    "lossReact": 
+        [
+            " thinks that getting hurt because of a wrong answer is insane! Are you okay?", 
+            " is wondering what is going on. Did you just get hurt because of a wrong answer?"
+        ],
+    "deathReact": 
+        [
+            " is giving you CPR, hoping for you to regain consciousness.", 
+            " is scared. Did you just pass out because of failing a quiz?"
+        ],
+    "winwinReact": 
+        [
+            " is mediumly impressed by your knowledge, you were right.", 
+            " is feeling mediocre. You guessed right..."
+        ],
+    "winfastReact": 
+        [
+            " is mediumly shocked. Your answer came quicker!", 
+            " is sort of impressed. You were faster in giving the right answer!"
+        ],
+    "winlossReact": 
+        [
+            " is happy, like an average person. You got the answer right, but your opponent was faster", 
+            " is amused. Also, you answered right, but were too slow."
+        ],
+    "skipReact": 
+        [
+            " is perplexed. Is it a wise choice not to answer?", 
+            " thinks that skipping questions is a boring way of playing."]
+    },
+    {
+    "name":"Clever",
+    "answerTimeBegin":4,
+    "answerTimeEnd":6,
+    "rightGuess":4,
+    "HTMLtext":"This guy is fast and quite sharp. </br> You never know what he's up to. </br>",
+    "playerName":  
+        [
+            "R. Sanchez, notorious scientist,",
+            "The Ancient One", 
+            "Dr. Mario, which by the way is not a real doctor," 
+        ],
+    "lossReact": 
+        [
+            " is saying something on the lines of 'get rekt kid', as you answered incorrectly", 
+            " is delighted by your struggle.", 
+            " feels sorry. Well, not really. You were wrong!"
+        ],
+    "deathReact": 
+        [
+            " is pondering upon the meaning of life. And death.", 
+            " is enjoying his victory!"
+        ],
+    "winwinReact": 
+        [
+            " is pissed. How come you guessed right? And he didn't?!", 
+            " is distracted by deep thoughts. He answered wrong, and you were right!"
+        ],
+    "winfastReact": 
+        [
+            " is asking you to slow down, you're fast, he gets it. You were also right.", 
+            " thinks your answer was absurdly quick. He's impressed, but he'll never admit it."
+        ],
+    "winlossReact": 
+        [
+            " answered right before you did, and is clearly flexing about it.", 
+            " has given the right answer quicker than you, and he's making odd victory poses"
+        ],
+    "skipReact": 
+        [
+            " says that skipping answers is NOT the way towards victory.", 
+            " is mocking you for your display of ignorance."
+        ]
+    }
+]
